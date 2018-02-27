@@ -1,0 +1,23 @@
+{
+  "name": "iframetest",
+  "version": "1.0.0",
+  "description": "tet",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amana1/iFrameTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amana1/iFrameTest/issues"
+  },
+  "homepage": "https://github.com/Amana1/iFrameTest#readme"
+}

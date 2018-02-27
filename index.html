@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html
+        lang="en">
+
+<head>
+
+    <meta
+            charset="utf-8">
+
+    <title>Parent Window</title>
+
+    <style type="text/css">
+        iframe {
+            width: 100%;
+            height: calc(100vh - 120px);
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+
+
+<h1>Parent Window</h1>
+
+
+
+<div
+        id="results"></div>
+
+<br/>
+
+
+
+<script>
+
+
+
+
+
+    //var iframeSource = 'https://gist.github.com/pbojinov/8965299/raw/fadf2c4058b6481646e7244994c1890f2ad81b60/iframe.html';
+
+    var iframeSource =
+
+        'http://dev-rtl-6929b63164d83f1e.elb.us-east-1.amazonaws.com/';
+
+
+
+
+    // Create the iframe
+
+    var iframe =
+        document.createElement('iframe');
+
+    iframe.setAttribute('src',
+        iframeSource);
+
+    iframe.setAttribute('id',
+        'the_iframe');
+
+    document.body.appendChild(iframe);
+
+
+
+</script>
+
+</body>
+
+</html>
